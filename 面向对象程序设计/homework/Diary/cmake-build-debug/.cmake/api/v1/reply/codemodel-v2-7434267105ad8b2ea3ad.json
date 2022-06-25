@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pd",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hw04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw04-Debug-bf230de380801765dcc6.json",
+					"name" : "hw04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pdlist.exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pdlist.exe-Debug-dfe2b28b93801492fbf2.json",
+					"name" : "pdlist.exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pdremove.exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pdremove.exe-Debug-b259b0e0a9f201f7184a.json",
+					"name" : "pdremove.exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pdshow.exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pdshow.exe-Debug-209dff1bbe5d215ac7d6.json",
+					"name" : "pdshow.exe",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/oop/hw04/cmake-build-debug",
+		"source" : "D:/oop/hw04"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

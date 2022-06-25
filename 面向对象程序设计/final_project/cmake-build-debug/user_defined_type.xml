@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Serialization>
+    <std_int val="34483"/>
+    <std_string val="test_for_UserDefinedType"/>
+    <std_vector size="15">
+        <std_int val="5"/>
+        <std_int val="6"/>
+        <std_int val="7"/>
+        <std_int val="8"/>
+        <std_int val="9"/>
+        <std_int val="10"/>
+        <std_int val="11"/>
+        <std_int val="12"/>
+        <std_int val="13"/>
+        <std_int val="14"/>
+        <std_int val="15"/>
+        <std_int val="16"/>
+        <std_int val="17"/>
+        <std_int val="18"/>
+        <std_int val="19"/>
+    </std_vector>
+</Serialization>

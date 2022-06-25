@@ -1,0 +1,6 @@
+2021.11.15
+we can add a diary by means of pipeline.
+.
+2022.04.05
+we can add a diary by means of redirection.
+.

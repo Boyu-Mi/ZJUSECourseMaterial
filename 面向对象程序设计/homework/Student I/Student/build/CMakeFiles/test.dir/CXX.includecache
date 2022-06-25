@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/student.h
+string
+-
+
+/home/mby/Desktop/Test/src/main.cpp
+iostream
+-
+student.h
+/home/mby/Desktop/Test/src/student.h
+string
+-
+iomanip
+-
+cmath
+-
+cstring
+-
+
+/home/mby/Desktop/Test/src/student.cpp
+student.h
+/home/mby/Desktop/Test/src/student.h
+iostream
+-
+cstring
+-
+string
+-
+iomanip
+-
+cmath
+-
+

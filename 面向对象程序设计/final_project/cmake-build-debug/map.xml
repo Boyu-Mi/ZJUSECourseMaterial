@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Serialization>
+    <std_map size="26">
+        <std_pair>
+            <Key>
+                <std_int val="0"/>
+            </Key>
+            <Value>
+                <std_int val="97"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="1"/>
+            </Key>
+            <Value>
+                <std_int val="98"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="2"/>
+            </Key>
+            <Value>
+                <std_int val="99"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="3"/>
+            </Key>
+            <Value>
+                <std_int val="100"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="4"/>
+            </Key>
+            <Value>
+                <std_int val="101"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="5"/>
+            </Key>
+            <Value>
+                <std_int val="102"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="6"/>
+            </Key>
+            <Value>
+                <std_int val="103"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="7"/>
+            </Key>
+            <Value>
+                <std_int val="104"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="8"/>
+            </Key>
+            <Value>
+                <std_int val="105"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="9"/>
+            </Key>
+            <Value>
+                <std_int val="106"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="10"/>
+            </Key>
+            <Value>
+                <std_int val="107"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="11"/>
+            </Key>
+            <Value>
+                <std_int val="108"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="12"/>
+            </Key>
+            <Value>
+                <std_int val="109"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="13"/>
+            </Key>
+            <Value>
+                <std_int val="110"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="14"/>
+            </Key>
+            <Value>
+                <std_int val="111"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="15"/>
+            </Key>
+            <Value>
+                <std_int val="112"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="16"/>
+            </Key>
+            <Value>
+                <std_int val="113"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="17"/>
+            </Key>
+            <Value>
+                <std_int val="114"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="18"/>
+            </Key>
+            <Value>
+                <std_int val="115"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="19"/>
+            </Key>
+            <Value>
+                <std_int val="116"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="20"/>
+            </Key>
+            <Value>
+                <std_int val="117"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="21"/>
+            </Key>
+            <Value>
+                <std_int val="118"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="22"/>
+            </Key>
+            <Value>
+                <std_int val="119"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="23"/>
+            </Key>
+            <Value>
+                <std_int val="120"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="24"/>
+            </Key>
+            <Value>
+                <std_int val="121"/>
+            </Value>
+        </std_pair>
+        <std_pair>
+            <Key>
+                <std_int val="25"/>
+            </Key>
+            <Value>
+                <std_int val="122"/>
+            </Value>
+        </std_pair>
+    </std_map>
+</Serialization>

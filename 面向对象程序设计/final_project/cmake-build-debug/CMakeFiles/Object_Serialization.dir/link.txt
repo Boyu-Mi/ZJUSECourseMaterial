@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Object_Serialization.dir/main.cpp.o CMakeFiles/Object_Serialization.dir/tinyxml2.cpp.o  -o Object_Serialization 

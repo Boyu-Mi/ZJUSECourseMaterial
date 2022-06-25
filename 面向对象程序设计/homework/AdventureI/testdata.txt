@@ -1,0 +1,37 @@
+case 1:
+Welcome to Adventure!
+Welcome to the Lobby. There are 3 exits: east, north and south.
+Enter your command:
+go east
+Welcome to the Maintenance Room. There are 2 exits: south and west.
+Enter your command:
+go west
+Welcome to the Lobby. There are 3 exits: east, north and south.
+Enter your command:
+go south
+Welcome to the Dam. There are 5 exits: down, east, north, south and west.
+Enter your command:
+go down
+Welcome to the Dam Base. There are 2 exits: north and up.
+Enter your command:
+go north
+Welcome to the Dam. There are 5 exits: down, east, north, south and west.
+Enter your command:
+go west
+Welcome to the Reservoir. There are 2 exits: east and south.
+The monster is in this room!
+GAME OVER
+
+case 2:
+Welcome to Adventure!
+Welcome to the Lobby. There are 3 exits: east, north and south.
+Enter your command:
+go north
+Welcome to the Maintenance Room. There are 2 exits: south and west.
+The princess is in this room!
+You should take her away.
+Enter your command:
+go south
+Welcome to the Lobby. There are 3 exits: east, north and south.
+SUCCESS
+

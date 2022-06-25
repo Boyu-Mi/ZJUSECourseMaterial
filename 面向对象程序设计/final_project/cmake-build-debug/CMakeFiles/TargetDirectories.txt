@@ -1,0 +1,3 @@
+/mnt/d/oop/final_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/oop/final_project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/oop/final_project/cmake-build-debug/CMakeFiles/Object_Serialization.dir

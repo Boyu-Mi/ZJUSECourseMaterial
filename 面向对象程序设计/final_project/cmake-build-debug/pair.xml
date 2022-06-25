@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Serialization>
+    <std_pair>
+        <First val="123"/>
+        <Second val="456.7890P× Úÿ"/>
+    </std_pair>
+</Serialization>

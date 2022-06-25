@@ -1,0 +1,6 @@
+D:/oop/hw04/cmake-build-debug/CMakeFiles/hw04.dir
+D:/oop/hw04/cmake-build-debug/CMakeFiles/pdlist.exe.dir
+D:/oop/hw04/cmake-build-debug/CMakeFiles/pdshow.exe.dir
+D:/oop/hw04/cmake-build-debug/CMakeFiles/pdremove.exe.dir
+D:/oop/hw04/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/oop/hw04/cmake-build-debug/CMakeFiles/rebuild_cache.dir

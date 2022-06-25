@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Serialization>
+    <std_vector size="5">
+        <std_int val="0"/>
+        <std_int val="1"/>
+        <std_int val="2"/>
+        <std_int val="3"/>
+        <std_int val="4"/>
+    </std_vector>
+</Serialization>

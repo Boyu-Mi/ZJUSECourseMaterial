@@ -1,0 +1,36 @@
+2012.11.11
+test
+test
+.
+2016.12.31
+diary
+.
+2021.01.12
+Today mother and I paid a visit to a famous doctor--Dr Zou.
+He talked about something about how to prevent cold with us.
+He told us that we should have a good healthy habit, wash our hands before and after meals, 
+and take more exercises in our free time, open the windows often to keep the air resh in our house. 
+What he said makes me know more about cold. I think we should try our best to do something for it.
+.
+2021.04.16
+I have a dog. Its name is Doggy. I like it.
+Doggy has two big eyes, two small ears, a big nose and a small mouth. 
+It's black and white. It has a short tail. It's cute and lovely.
+Doggy is strong. It likes bones, rice and meat very much. My dog is lazy. 
+It can catch a ball. I love my dog very much.
+.
+2021.06.18
+Today, I went to the art exhibition with my brother.
+In the art exhibition,I saw the many draw a portrait,Its very interesting.
+My favorite is the one painting the sky,
+It's very beautiful.
+Painting is the blue bird days and there were clouds,what a wondeful!
+Ah,There many,many paintings,very beautiful.
+Today is a great day, Hope that also the case.
+.
+2021.11.15
+we can add a diary by means of pipeline.
+.
+2022.04.05
+we can add a diary by means of redirection.
+.
