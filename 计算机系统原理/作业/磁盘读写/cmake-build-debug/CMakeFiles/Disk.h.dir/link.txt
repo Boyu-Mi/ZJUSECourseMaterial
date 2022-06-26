@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Disk.h.dir/main.cpp.o  -o Disk.h 

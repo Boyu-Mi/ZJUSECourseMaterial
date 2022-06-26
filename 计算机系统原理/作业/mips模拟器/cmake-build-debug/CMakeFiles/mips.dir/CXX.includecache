@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/lenovo/Desktop/计原/mips/mipsCPU.cpp
+iostream
+-
+string
+-
+cstdio
+-
+iomanip
+-
+map
+-
+vector
+-
+fstream
+-
+

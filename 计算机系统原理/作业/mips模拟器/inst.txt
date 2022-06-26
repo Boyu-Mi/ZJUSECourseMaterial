@@ -1,0 +1,21 @@
+addi $t0, $t0, 1
+loop:
+add $s0, $t1, $t2
+addi $t0, $t0, 1
+addi $t2, $zero, 3
+beq $s0, $t1, Corret
+Incorret:
+addi $a0, $zero, 1
+j end
+Corret:
+add $a0, $zero, $s0
+j end
+end:
+addi $s2, $zero, 16708
+sub $s2, $s2, $a0
+sw $s2, 96($zero)
+lw $s1, 96($zero)
+
+
+
+

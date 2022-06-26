@@ -1,0 +1,3 @@
+/mnt/c/Users/lenovo/Desktop/计原/磁盘读写/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/lenovo/Desktop/计原/磁盘读写/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/lenovo/Desktop/计原/磁盘读写/cmake-build-debug/CMakeFiles/Disk.h.dir
