@@ -1,4 +1,4 @@
 # ZJUSECourseMaterial
 
 浙江大学软件工程专业部分课程资料\
-未上传数据库minisql大程，高级数据结构与算法分析project等不适宜公开代码或文档的内容。
+未上传数据库minisql大程，高级数据结构与算法分析project等不适合公开代码或文档的内容。
