@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/ISE_project/12.21/LEDP2S/LEDP2S_sim_isim_beh.exe" -prj "D:/ISE_project/12.21/LEDP2S/LEDP2S_sim_beh.prj" "work.LEDP2S_sim" "work.glbl" 

@@ -1,0 +1,30 @@
+Running: D:\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test_test_sch_tb_isim_beh.exe -prj D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test_test_sch_tb_beh.prj work.test_test_sch_tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/D_74LS138_SCH.vf" into library work
+Analyzing Verilog file "D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test.vf" into library work
+Analyzing Verilog file "D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/D_74LS138_TEST.v" into library work
+Analyzing Verilog file "D:/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 159192 KB
+Fuse CPU Usage: 280 ms
+Compiling module INV
+Compiling module AND2
+Compiling module NAND3
+Compiling module NOR3
+Compiling module D_74LS138_SCH_MUSER_test
+Compiling module NAND4
+Compiling module VCC
+Compiling module GND
+Compiling module test
+Compiling module test_test_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 Verilog Units
+Built simulation executable D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test_test_sch_tb_isim_beh.exe
+Fuse Memory Usage: 166716 KB
+Fuse CPU Usage: 468 ms

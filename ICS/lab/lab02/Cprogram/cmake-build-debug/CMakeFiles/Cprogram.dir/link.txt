@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Cprogram.dir/lab02.cpp.o  -o Cprogram 

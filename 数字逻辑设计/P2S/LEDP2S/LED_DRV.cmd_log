@@ -1,0 +1,78 @@
+xst -intstyle ise -ifn "D:/ISE_project/12.21/LEDP2S/LED_DRV.xst" -ofn "D:/ISE_project/12.21/LEDP2S/LED_DRV.syr" 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/LEDP2S/LED_DRV.xst" -ofn "D:/ISE_project/12.21/LEDP2S/LED_DRV.syr" 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/LEDP2S/LED_DRV.xst" -ofn "D:/ISE_project/12.21/LEDP2S/LED_DRV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 LED_DRV.ngc LED_DRV.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LED_DRV_map.ncd LED_DRV.ngd LED_DRV.pcf 
+par -w -intstyle ise -ol high -mt off LED_DRV_map.ncd LED_DRV.ncd LED_DRV.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LED_DRV.twx LED_DRV.ncd -o LED_DRV.twr LED_DRV.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f LED_DRV.ut LED_DRV.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 LED_DRV.ngc LED_DRV.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LED_DRV_map.ncd LED_DRV.ngd LED_DRV.pcf 
+par -w -intstyle ise -ol high -mt off LED_DRV_map.ncd LED_DRV.ncd LED_DRV.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LED_DRV.twx LED_DRV.ncd -o LED_DRV.twr LED_DRV.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f LED_DRV.ut LED_DRV.ncd 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/LEDP2S/LED_DRV.xst" -ofn "D:/ISE_project/12.21/LEDP2S/LED_DRV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 LED_DRV.ngc LED_DRV.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LED_DRV_map.ncd LED_DRV.ngd LED_DRV.pcf 
+par -w -intstyle ise -ol high -mt off LED_DRV_map.ncd LED_DRV.ncd LED_DRV.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LED_DRV.twx LED_DRV.ncd -o LED_DRV.twr LED_DRV.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f LED_DRV.ut LED_DRV.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 LED_DRV.ngc LED_DRV.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LED_DRV_map.ncd LED_DRV.ngd LED_DRV.pcf 
+par -w -intstyle ise -ol high -mt off LED_DRV_map.ncd LED_DRV.ncd LED_DRV.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LED_DRV.twx LED_DRV.ncd -o LED_DRV.twr LED_DRV.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f LED_DRV.ut LED_DRV.ncd 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/LEDP2S/LED_DRV.xst" -ofn "D:/ISE_project/12.21/LEDP2S/LED_DRV.syr" 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/LEDP2S/LED_DRV.xst" -ofn "D:/ISE_project/12.21/LEDP2S/LED_DRV.syr" 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/LEDP2S/LED_DRV.xst" -ofn "D:/ISE_project/12.21/LEDP2S/LED_DRV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 LED_DRV.ngc LED_DRV.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LED_DRV_map.ncd LED_DRV.ngd LED_DRV.pcf 
+par -w -intstyle ise -ol high -mt off LED_DRV_map.ncd LED_DRV.ncd LED_DRV.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LED_DRV.twx LED_DRV.ncd -o LED_DRV.twr LED_DRV.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f LED_DRV.ut LED_DRV.ncd 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/LEDP2S/LED_DRV.xst" -ofn "D:/ISE_project/12.21/LEDP2S/LED_DRV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 LED_DRV.ngc LED_DRV.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LED_DRV_map.ncd LED_DRV.ngd LED_DRV.pcf 
+par -w -intstyle ise -ol high -mt off LED_DRV_map.ncd LED_DRV.ncd LED_DRV.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LED_DRV.twx LED_DRV.ncd -o LED_DRV.twr LED_DRV.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f LED_DRV.ut LED_DRV.ncd 
+xst -intstyle ise -ifn "D:/12.21/LEDP2S/LED_DRV.xst" -ofn "D:/12.21/LEDP2S/LED_DRV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 LED_DRV.ngc LED_DRV.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LED_DRV_map.ncd LED_DRV.ngd LED_DRV.pcf 
+par -w -intstyle ise -ol high -mt off LED_DRV_map.ncd LED_DRV.ncd LED_DRV.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LED_DRV.twx LED_DRV.ncd -o LED_DRV.twr LED_DRV.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f LED_DRV.ut LED_DRV.ncd 
+xst -intstyle ise -ifn "D:/12.21/LEDP2S/LED_DRV.xst" -ofn "D:/12.21/LEDP2S/LED_DRV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 LED_DRV.ngc LED_DRV.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LED_DRV_map.ncd LED_DRV.ngd LED_DRV.pcf 
+par -w -intstyle ise -ol high -mt off LED_DRV_map.ncd LED_DRV.ncd LED_DRV.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LED_DRV.twx LED_DRV.ncd -o LED_DRV.twr LED_DRV.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f LED_DRV.ut LED_DRV.ncd 
+xst -intstyle ise -ifn "D:/code/Verilog/Lab13/T0/P2S/LEDP2S/LED_DRV.xst" -ofn "D:/code/Verilog/Lab13/T0/P2S/LEDP2S/LED_DRV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 LED_DRV.ngc LED_DRV.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LED_DRV_map.ncd LED_DRV.ngd LED_DRV.pcf 
+par -w -intstyle ise -ol high -mt off LED_DRV_map.ncd LED_DRV.ncd LED_DRV.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LED_DRV.twx LED_DRV.ncd -o LED_DRV.twr LED_DRV.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f LED_DRV.ut LED_DRV.ncd 
+xst -intstyle ise -ifn "D:/code/Verilog/Lab13/T0/P2S/LEDP2S/LED_DRV.xst" -ofn "D:/code/Verilog/Lab13/T0/P2S/LEDP2S/LED_DRV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 LED_DRV.ngc LED_DRV.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LED_DRV_map.ncd LED_DRV.ngd LED_DRV.pcf 
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LED_DRV_map.ncd LED_DRV.ngd LED_DRV.pcf 
+xst -intstyle ise -ifn "D:/code/Verilog/Lab13/T0/P2S/LEDP2S/LED_DRV.xst" -ofn "D:/code/Verilog/Lab13/T0/P2S/LEDP2S/LED_DRV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 LED_DRV.ngc LED_DRV.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LED_DRV_map.ncd LED_DRV.ngd LED_DRV.pcf 
+par -w -intstyle ise -ol high -mt off LED_DRV_map.ncd LED_DRV.ncd LED_DRV.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LED_DRV.twx LED_DRV.ncd -o LED_DRV.twr LED_DRV.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f LED_DRV.ut LED_DRV.ncd 
+xst -intstyle ise -ifn "D:/code/Verilog/Lab13/T0/P2S/LEDP2S/LED_DRV.xst" -ofn "D:/code/Verilog/Lab13/T0/P2S/LEDP2S/LED_DRV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 LED_DRV.ngc LED_DRV.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LED_DRV_map.ncd LED_DRV.ngd LED_DRV.pcf 
+par -w -intstyle ise -ol high -mt off LED_DRV_map.ncd LED_DRV.ncd LED_DRV.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LED_DRV.twx LED_DRV.ncd -o LED_DRV.twr LED_DRV.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f LED_DRV.ut LED_DRV.ncd 
+xst -intstyle ise -ifn "D:/code/Verilog/Lab13/T0/P2S/LEDP2S/LED_DRV.xst" -ofn "D:/code/Verilog/Lab13/T0/P2S/LEDP2S/LED_DRV.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 LED_DRV.ngc LED_DRV.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LED_DRV_map.ncd LED_DRV.ngd LED_DRV.pcf 
+par -w -intstyle ise -ol high -mt off LED_DRV_map.ncd LED_DRV.ncd LED_DRV.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LED_DRV.twx LED_DRV.ncd -o LED_DRV.twr LED_DRV.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f LED_DRV.ut LED_DRV.ncd 

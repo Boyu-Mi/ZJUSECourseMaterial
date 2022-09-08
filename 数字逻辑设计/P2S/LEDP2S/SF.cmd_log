@@ -1,0 +1,1 @@
+sch2hdl -intstyle ise -family kintex7 -verilog SF_drc.vf -w D:/ISE_project/12.21/LEDP2S/SF.sch 

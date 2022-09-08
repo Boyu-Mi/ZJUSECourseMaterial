@@ -1,0 +1,54 @@
+Running: D:\ISE\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/ISE_project/12.21/LEDP2S/LEDP2S_sim_isim_beh.exe -prj D:/ISE_project/12.21/LEDP2S/LEDP2S_sim_beh.prj work.LEDP2S_sim work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/ISE_project/12.21/LEDP2S/Mux4to1b4.vf" into library work
+Analyzing Verilog file "D:/ISE_project/12.21/LEDP2S/MUX4to1.vf" into library work
+Analyzing Verilog file "D:/ISE_project/12.21/LEDP2S/MyMC14495.vf" into library work
+Analyzing Verilog file "D:/ISE_project/12.21/LEDP2S/DisplaySync.vf" into library work
+Analyzing Verilog file "D:/ISE_project/12.21/LEDP2S/clkdiv.v" into library work
+Analyzing Verilog file "D:/ISE_project/12.21/LEDP2S/ShiftReg9b.v" into library work
+Analyzing Verilog file "D:/ISE_project/12.21/LEDP2S/ShiftReg8b.v" into library work
+Analyzing Verilog file "D:/ISE_project/12.21/LEDP2S/SF.vf" into library work
+Analyzing Verilog file "D:/ISE_project/12.21/LEDP2S/pbdebounce.v" into library work
+Analyzing Verilog file "D:/ISE_project/12.21/LEDP2S/DispNum.vf" into library work
+Analyzing Verilog file "D:/ISE_project/12.21/LEDP2S/CreateNumber.v" into library work
+Analyzing Verilog file "D:/ISE_project/12.21/LEDP2S/LED_DRV.v" into library work
+Analyzing Verilog file "D:/ISE_project/12.21/LEDP2S/LEDP2S_sim.v" into library work
+Analyzing Verilog file "D:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 159884 KB
+Fuse CPU Usage: 250 ms
+Compiling module AND2
+Compiling module INV
+Compiling module NOR2
+Compiling module SF
+Compiling module clkdiv
+Compiling module pbdebounce
+Compiling module CreateNumber
+Compiling module ShiftReg9b
+Compiling module ShiftReg8b
+Compiling module OR4
+Compiling module Mux4to1b4_MUSER_DispNum
+Compiling module MUX4to1_MUSER_DispNum
+Compiling module D2_4E_HXILINX_DispNum
+Compiling module VCC
+Compiling module INV4_HXILINX_DispNum
+Compiling module DisplaySync_MUSER_DispNum
+Compiling module AND4
+Compiling module AND3
+Compiling module OR3
+Compiling module OR2
+Compiling module MyMC14495_MUSER_DispNum
+Compiling module DispNum
+Compiling module LED_DRV
+Compiling module LEDP2S_sim
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 25 Verilog Units
+Built simulation executable D:/ISE_project/12.21/LEDP2S/LEDP2S_sim_isim_beh.exe
+Fuse Memory Usage: 169456 KB
+Fuse CPU Usage: 390 ms

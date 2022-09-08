@@ -1,0 +1,33 @@
+.ORIG x3000
+
+AND R1, R1, #0
+ADD R1, R1, #1
+LD R0, R0ADR
+LD R2, R2ADR
+
+
+LOOP
+ADD R0, R0, #0
+BRz END
+ADD R1, R1, R1
+ADD R0, R0, #-1
+BRnzp LOOP
+
+END
+ADD R3, R1, #0 ; R3 = R1
+AND R1, R1, R0
+BRnp SKIP ; if (R1 AND R0) is not 0, the bit has been set
+ADD R1, R3, R2
+
+SKIP
+ADD R3, R1, #0
+TRAP x25
+
+R2ADR .FILL x4000
+R0ADR .FILL x4001
+.END
+
+.ORIG x4000
+RTWO .FILL x3101
+RZERO .FILL x0005
+.END

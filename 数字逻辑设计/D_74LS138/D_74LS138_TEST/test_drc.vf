@@ -1,0 +1,138 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : test_drc.vf
+// /___/   /\     Timestamp : 10/19/2021 17:40:33
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: D:\14.7\ISE_DS\ISE\bin\nt\unwrapped\sch2hdl.exe -intstyle ise -family kintex7 -verilog test_drc.vf -w D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test.sch
+//Design Name: test
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module D_74LS138_SCH_MUSER_test(A, 
+                                B, 
+                                C, 
+                                G, 
+                                G2A, 
+                                G2B, 
+                                Y);
+
+    input A;
+    input B;
+    input C;
+    input G;
+    input G2A;
+    input G2B;
+   output [7:0] Y;
+   
+   wire XLXN_17;
+   wire XLXN_21;
+   wire XLXN_28;
+   wire XLXN_30;
+   wire XLXN_32;
+   wire XLXN_34;
+   wire XLXN_39;
+   wire XLXN_47;
+   wire XLXN_58;
+   
+   INV  XLXI_7 (.I(A), 
+               .O(XLXN_17));
+   INV  XLXI_8 (.I(B), 
+               .O(XLXN_21));
+   AND2  XLXI_9 (.I0(XLXN_21), 
+                .I1(XLXN_17), 
+                .O(XLXN_28));
+   AND2  XLXI_10 (.I0(XLXN_21), 
+                 .I1(A), 
+                 .O(XLXN_30));
+   AND2  XLXI_11 (.I0(B), 
+                 .I1(XLXN_17), 
+                 .O(XLXN_32));
+   AND2  XLXI_12 (.I0(B), 
+                 .I1(A), 
+                 .O(XLXN_34));
+   INV  XLXI_13 (.I(C), 
+                .O(XLXN_39));
+   NAND3  XLXI_14 (.I0(XLXN_39), 
+                  .I1(XLXN_58), 
+                  .I2(XLXN_28), 
+                  .O(Y[7]));
+   NAND3  XLXI_15 (.I0(XLXN_39), 
+                  .I1(XLXN_58), 
+                  .I2(XLXN_30), 
+                  .O(Y[6]));
+   NAND3  XLXI_16 (.I0(XLXN_39), 
+                  .I1(XLXN_58), 
+                  .I2(XLXN_32), 
+                  .O(Y[5]));
+   NAND3  XLXI_17 (.I0(XLXN_39), 
+                  .I1(XLXN_58), 
+                  .I2(XLXN_34), 
+                  .O(Y[4]));
+   NAND3  XLXI_18 (.I0(C), 
+                  .I1(XLXN_58), 
+                  .I2(XLXN_28), 
+                  .O(Y[3]));
+   NAND3  XLXI_19 (.I0(C), 
+                  .I1(XLXN_58), 
+                  .I2(XLXN_30), 
+                  .O(Y[2]));
+   NAND3  XLXI_20 (.I0(C), 
+                  .I1(XLXN_58), 
+                  .I2(XLXN_32), 
+                  .O(Y[1]));
+   NAND3  XLXI_21 (.I0(C), 
+                  .I1(XLXN_58), 
+                  .I2(XLXN_34), 
+                  .O(Y[0]));
+   INV  XLXI_22 (.I(G), 
+                .O(XLXN_47));
+   NOR3  XLXI_23 (.I0(G2B), 
+                 .I1(G2A), 
+                 .I2(XLXN_47), 
+                 .O(XLXN_58));
+endmodule
+`timescale 1ns / 1ps
+
+module test(S1, 
+            S2, 
+            S3, 
+            FFF);
+
+    input S1;
+    input S2;
+    input S3;
+   output FFF;
+   
+   wire [7:0] F;
+   wire S4;
+   wire S5;
+   wire S6;
+   
+   D_74LS138_SCH_MUSER_test  XLXI_1 (.A(S1), 
+                                    .B(S2), 
+                                    .C(S3), 
+                                    .G(S4), 
+                                    .G2A(S5), 
+                                    .G2B(S6), 
+                                    .Y(F[7:0]));
+   NAND4  XLXI_2 (.I0(F[1]), 
+                 .I1(F[2]), 
+                 .I2(F[4]), 
+                 .I3(F[7]), 
+                 .O(FFF));
+   VCC  XLXI_3 (.P(S4));
+   GND  XLXI_4 (.G(S5));
+   GND  XLXI_5 (.G(S6));
+endmodule

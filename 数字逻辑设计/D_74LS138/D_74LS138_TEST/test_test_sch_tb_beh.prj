@@ -1,0 +1,4 @@
+verilog work "D_74LS138_SCH.vf"
+verilog work "test.vf"
+verilog work "D_74LS138_TEST.v"
+verilog work "D:/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,28 @@
+Command line:
+   LEDP2S_sim_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54286
+
+Mon Dec 28 12:07:09 2020
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 887.779 Meg
+
+ Total Signals          : 535
+ Total Nets             : 268
+ Total Signal Drivers   : 136
+ Total Blocks           : 114
+ Total Primitive Blocks : 105
+ Total Processes        : 155
+ Total Traceable Variables  : 39
+ Total Scalar Nets and Variables : 493
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 416.182 Meg
+
+Mon Dec 28 12:09:34 2020
+

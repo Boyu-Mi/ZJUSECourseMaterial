@@ -1,0 +1,70 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : D_FLIPFLOP.vf
+// /___/   /\     Timestamp : 12/21/2020 16:05:39
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog D:/ISE_project/12.21/LEDP2S/D_FLIPFLOP.vf -w D:/ISE_project/12.21/LEDP2S/D_FLIPFLOP.sch
+//Design Name: D_FLIPFLOP
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module D_FLIPFLOP(Cp, 
+                  D, 
+                  Rbar, 
+                  Sbar, 
+                  Q, 
+                  Qbar);
+
+    input Cp;
+    input D;
+    input Rbar;
+    input Sbar;
+   output Q;
+   output Qbar;
+   
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_7;
+   wire Q_DUMMY;
+   wire Qbar_DUMMY;
+   
+   assign Q = Q_DUMMY;
+   assign Qbar = Qbar_DUMMY;
+   NAND3  XLXI_1 (.I0(XLXN_2), 
+                 .I1(XLXN_7), 
+                 .I2(Sbar), 
+                 .O(XLXN_4));
+   NAND3  XLXI_2 (.I0(Cp), 
+                 .I1(Rbar), 
+                 .I2(XLXN_4), 
+                 .O(XLXN_2));
+   NAND3  XLXI_3 (.I0(XLXN_7), 
+                 .I1(Cp), 
+                 .I2(XLXN_2), 
+                 .O(XLXN_3));
+   NAND3  XLXI_4 (.I0(Rbar), 
+                 .I1(D), 
+                 .I2(XLXN_3), 
+                 .O(XLXN_7));
+   NAND3  XLXI_5 (.I0(Qbar_DUMMY), 
+                 .I1(XLXN_2), 
+                 .I2(Sbar), 
+                 .O(Q_DUMMY));
+   NAND3  XLXI_6 (.I0(Rbar), 
+                 .I1(XLXN_3), 
+                 .I2(Q_DUMMY), 
+                 .O(Qbar_DUMMY));
+endmodule

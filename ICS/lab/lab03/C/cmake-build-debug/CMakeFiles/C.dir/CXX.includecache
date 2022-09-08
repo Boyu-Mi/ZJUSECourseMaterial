@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/ZJUSECourseMaterial/ICS/lab/lab03/C/lab03.cpp
+iostream
+-
+list
+-
+cstdlib
+-
+ctime
+-
+string
+-
+

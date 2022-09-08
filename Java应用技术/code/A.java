@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class A{
 
@@ -9,6 +10,8 @@ public class A{
         int a1 = 1271;
         int a2 = 1271;
         Integer i1 = 128;
+        Scanner s = new Scanner(System.in); 
+        System.out.println(s.nextInt());
         Integer i2 = 128;
         System.out.println(i1 == i2);
         Integer i11 = 127;

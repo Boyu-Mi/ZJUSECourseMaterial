@@ -1,0 +1,86 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : AddSub1b.vf
+// /___/   /\     Timestamp : 12/28/2020 14:37:25
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog D:/ISE_project/12.21/SEGP2S/AddSub1b.vf -w D:/ISE_project/12.21/SEGP2S/AddSub1b.sch
+//Design Name: AddSub1b
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Adder1b_MUSER_AddSub1b(A, 
+                              B, 
+                              C, 
+                              Co, 
+                              S);
+
+    input A;
+    input B;
+    input C;
+   output Co;
+   output S;
+   
+   wire XLXN_3;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_7;
+   
+   XOR2  XLXI_1 (.I0(B), 
+                .I1(A), 
+                .O(XLXN_3));
+   XOR2  XLXI_2 (.I0(C), 
+                .I1(XLXN_3), 
+                .O(S));
+   AND2  XLXI_3 (.I0(B), 
+                .I1(A), 
+                .O(XLXN_5));
+   AND2  XLXI_4 (.I0(C), 
+                .I1(B), 
+                .O(XLXN_6));
+   AND2  XLXI_5 (.I0(C), 
+                .I1(A), 
+                .O(XLXN_7));
+   OR3  XLXI_6 (.I0(XLXN_7), 
+               .I1(XLXN_6), 
+               .I2(XLXN_5), 
+               .O(Co));
+endmodule
+`timescale 1ns / 1ps
+
+module AddSub1b(A, 
+                B, 
+                Ci, 
+                Ctrl, 
+                Co, 
+                S);
+
+    input A;
+    input B;
+    input Ci;
+    input Ctrl;
+   output Co;
+   output S;
+   
+   wire XLXN_4;
+   
+   Adder1b_MUSER_AddSub1b  XLXI_1 (.A(A), 
+                                  .B(XLXN_4), 
+                                  .C(Ci), 
+                                  .Co(Co), 
+                                  .S(S));
+   XOR2  XLXI_2 (.I0(Ctrl), 
+                .I1(B), 
+                .O(XLXN_4));
+endmodule

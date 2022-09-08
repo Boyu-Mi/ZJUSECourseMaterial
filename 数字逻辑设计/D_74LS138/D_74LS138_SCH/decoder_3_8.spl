@@ -1,0 +1,13 @@
+[Inputs]
+C
+B
+A
+G
+G2A
+G2B
+[Outputs]
+=Y[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel decoder_3_8
+

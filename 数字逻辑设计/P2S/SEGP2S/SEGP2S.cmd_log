@@ -1,0 +1,81 @@
+xst -intstyle ise -ifn "D:/ISE_project/12.21/SEGP2S/SEGP2S.xst" -ofn "D:/ISE_project/12.21/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/SEGP2S/SEGP2S.xst" -ofn "D:/ISE_project/12.21/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/SEGP2S/SEGP2S.xst" -ofn "D:/ISE_project/12.21/SEGP2S/SEGP2S.syr" 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/SEGP2S/SEGP2S.xst" -ofn "D:/ISE_project/12.21/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/SEGP2S/SEGP2S.xst" -ofn "D:/ISE_project/12.21/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/SEGP2S/SEGP2S.xst" -ofn "D:/ISE_project/12.21/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/SEGP2S/SEGP2S.xst" -ofn "D:/ISE_project/12.21/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/SEGP2S/SEGP2S.xst" -ofn "D:/ISE_project/12.21/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/SEGP2S/SEGP2S.xst" -ofn "D:/ISE_project/12.21/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/SEGP2S/SEGP2S.xst" -ofn "D:/ISE_project/12.21/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/SEGP2S/SEGP2S.xst" -ofn "D:/ISE_project/12.21/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/SEGP2S/SEGP2S.xst" -ofn "D:/ISE_project/12.21/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+xst -intstyle ise -ifn "D:/ISE_project/12.21/SEGP2S/SEGP2S.xst" -ofn "D:/ISE_project/12.21/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+par -w -intstyle ise -ol high -mt off SEGP2S_map.ncd SEGP2S.ncd SEGP2S.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml SEGP2S.twx SEGP2S.ncd -o SEGP2S.twr SEGP2S.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f SEGP2S.ut SEGP2S.ncd 
+xst -intstyle ise -ifn "D:/SEGP2S/SEGP2S.xst" -ofn "D:/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+par -w -intstyle ise -ol high -mt off SEGP2S_map.ncd SEGP2S.ncd SEGP2S.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml SEGP2S.twx SEGP2S.ncd -o SEGP2S.twr SEGP2S.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f SEGP2S.ut SEGP2S.ncd 
+xst -intstyle ise -ifn "C:/Users/86181/Desktop/ISE/P2S/P2S/SEGP2S/SEGP2S.xst" -ofn "C:/Users/86181/Desktop/ISE/P2S/P2S/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+par -w -intstyle ise -ol high -mt off SEGP2S_map.ncd SEGP2S.ncd SEGP2S.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml SEGP2S.twx SEGP2S.ncd -o SEGP2S.twr SEGP2S.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f SEGP2S.ut SEGP2S.ncd 
+xst -intstyle ise -ifn "D:/code/Verilog/Lab13/T0/P2S/SEGP2S/SEGP2S.xst" -ofn "D:/code/Verilog/Lab13/T0/P2S/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+par -w -intstyle ise -ol high -mt off SEGP2S_map.ncd SEGP2S.ncd SEGP2S.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml SEGP2S.twx SEGP2S.ncd -o SEGP2S.twr SEGP2S.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f SEGP2S.ut SEGP2S.ncd 
+xst -intstyle ise -ifn "D:/code/Verilog/Lab13/T0/P2S/SEGP2S/SEGP2S.xst" -ofn "D:/code/Verilog/Lab13/T0/P2S/SEGP2S/SEGP2S.syr" 
+xst -intstyle ise -ifn "D:/code/Verilog/Lab13/T0/P2S/SEGP2S/SEGP2S.xst" -ofn "D:/code/Verilog/Lab13/T0/P2S/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+par -w -intstyle ise -ol high -mt off SEGP2S_map.ncd SEGP2S.ncd SEGP2S.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml SEGP2S.twx SEGP2S.ncd -o SEGP2S.twr SEGP2S.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f SEGP2S.ut SEGP2S.ncd 
+xst -intstyle ise -ifn "D:/code/Verilog/Lab13/T0/P2S/SEGP2S/SEGP2S.xst" -ofn "D:/code/Verilog/Lab13/T0/P2S/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+par -w -intstyle ise -ol high -mt off SEGP2S_map.ncd SEGP2S.ncd SEGP2S.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml SEGP2S.twx SEGP2S.ncd -o SEGP2S.twr SEGP2S.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f SEGP2S.ut SEGP2S.ncd 
+xst -intstyle ise -ifn "D:/code/Verilog/Lab13/T0/P2S/SEGP2S/SEGP2S.xst" -ofn "D:/code/Verilog/Lab13/T0/P2S/SEGP2S/SEGP2S.syr" 
+xst -intstyle ise -ifn "D:/code/Verilog/Lab13/T0/P2S/SEGP2S/SEGP2S.xst" -ofn "D:/code/Verilog/Lab13/T0/P2S/SEGP2S/SEGP2S.syr" 
+xst -intstyle ise -ifn "D:/code/Verilog/Lab13/T0/P2S/SEGP2S/SEGP2S.xst" -ofn "D:/code/Verilog/Lab13/T0/P2S/SEGP2S/SEGP2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 SEGP2S.ngc SEGP2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SEGP2S_map.ncd SEGP2S.ngd SEGP2S.pcf 
+par -w -intstyle ise -ol high -mt off SEGP2S_map.ncd SEGP2S.ncd SEGP2S.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml SEGP2S.twx SEGP2S.ncd -o SEGP2S.twr SEGP2S.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f SEGP2S.ut SEGP2S.ncd 

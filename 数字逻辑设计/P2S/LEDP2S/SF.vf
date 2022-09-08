@@ -1,0 +1,48 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : SF.vf
+// /___/   /\     Timestamp : 12/28/2020 10:33:56
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog D:/ISE_project/12.21/LEDP2S/SF.vf -w D:/ISE_project/12.21/LEDP2S/SF.sch
+//Design Name: SF
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module SF(finish, 
+          start, 
+          S_L);
+
+    input finish;
+    input start;
+   output S_L;
+   
+   wire XLXN_4;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire S_L_DUMMY;
+   
+   assign S_L = S_L_DUMMY;
+   AND2  XLXI_1 (.I0(finish), 
+                .I1(start), 
+                .O(XLXN_4));
+   INV  XLXI_2 (.I(finish), 
+               .O(XLXN_6));
+   NOR2  XLXI_3 (.I0(S_L_DUMMY), 
+                .I1(XLXN_4), 
+                .O(XLXN_7));
+   NOR2  XLXI_4 (.I0(XLXN_6), 
+                .I1(XLXN_7), 
+                .O(S_L_DUMMY));
+endmodule

@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "F:/ise_test_exp4/TEST/test.xst" -ofn "F:/ise_test_exp4/TEST/test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 test.ngc test.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_map.ncd test.ngd test.pcf 
+par -w -intstyle ise -ol high -mt off test_map.ncd test.ncd test.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml test.twx test.ncd -o test.twr test.pcf 
+xst -intstyle ise -ifn "F:/ise_test_exp4/TEST/test.xst" -ofn "F:/ise_test_exp4/TEST/test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 test.ngc test.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_map.ncd test.ngd test.pcf 
+par -w -intstyle ise -ol high -mt off test_map.ncd test.ncd test.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml test.twx test.ncd -o test.twr test.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f test.ut test.ncd 
+bitgen -intstyle ise -f test.ut test.ncd 
+sch2hdl -intstyle ise -family kintex7 -verilog test_drc.vf -w D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog test_drc.vf -w D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog test_drc.vf -w D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog test_drc.vf -w D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog test_drc.vf -w D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog test_drc.vf -w D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test.sch 
+xst -intstyle ise -ifn "D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test.xst" -ofn "D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 test.ngc test.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_map.ncd test.ngd test.pcf 
+par -w -intstyle ise -ol high -mt off test_map.ncd test.ncd test.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml test.twx test.ncd -o test.twr test.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f test.ut test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 test.ngc test.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_map.ncd test.ngd test.pcf 
+xst -intstyle ise -ifn "D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test.xst" -ofn "D:/QQ/2659290964/FileRecv/D_74LS138/D_74LS138_TEST/test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 test.ngc test.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test_map.ncd test.ngd test.pcf 
+par -w -intstyle ise -ol high -mt off test_map.ncd test.ncd test.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml test.twx test.ncd -o test.twr test.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f test.ut test.ncd 
+bitgen -intstyle ise -f test.ut test.ncd 
